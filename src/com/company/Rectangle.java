@@ -20,6 +20,10 @@ public class Rectangle extends Square {
         this.length = 1;
         this.width = 1;
     }
+    
+    public void setWidth(double width) {
+        this.width = width;
+    }
 
     @Override
     public double dia() {
